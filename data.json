@@ -1,0 +1,119 @@
+{
+    "cakes": [
+      {
+        "name": "Vanilla",
+        "description": "Vanilla sponge with vanilla buttercream and strawberry jam.",
+        "image": "img/pexels-quang-nguyen-vinh-2144112.jpg"
+      },
+      {
+        "name": "Chocolate",
+        "description": "Chocolate sponge with milk chocolate ganache/chocolate buttercream.",
+        "image": "img/pexels-quang-nguyen-vinh-2144112.jpg"
+      },
+      {
+        "name": "Red Velvet",
+        "description": "Red velvet sponge with white chocolate buttercream.",
+        "image": "img/pexels-quang-nguyen-vinh-2144112.jpg"
+      },
+      {
+        "name": "Lemon",
+        "description": "Lemon sponge and lemon buttercream.",
+        "image": "img/pexels-quang-nguyen-vinh-2144112.jpg"
+      },
+      {
+        "name": "Raspberry",
+        "description": "Vanilla sponge with raspberry buttercream and raspberry jam.",
+        "image": "img/pexels-quang-nguyen-vinh-2144112.jpg"
+      },
+      {
+        "name": "Pink Champagne",
+        "description": "Pink champagne sponge with champagne buttercream.",
+        "image": "img/pexels-quang-nguyen-vinh-2144112.jpg"
+      },
+      {
+        "name": "Coconut and Passionfruit",
+        "description": "Chocolate sponge with passionfruit buttercream.",
+        "image": "img/pexels-quang-nguyen-vinh-2144112.jpg"
+      },
+      {
+        "name": "Cherry and Bakewell",
+        "description": "Almond sponge with almond buttercream and cherry jam.",
+        "image": "img/pexels-quang-nguyen-vinh-2144112.jpg"
+      },
+      {
+        "name": "Cupcakes",
+        "description": "Almond sponge with almond buttercream and cherry jam.",
+        "image": "img/pexels-quang-nguyen-vinh-2144112.jpg"
+      },
+      {
+        "name": "Slicecakes",
+        "description": "Almond sponge with almond buttercream and cherry jam.",
+        "image": "img/pexels-quang-nguyen-vinh-2144112.jpg"
+      },
+      {
+        "name": "Brownies",
+        "description": "Almond sponge with almond buttercream and cherry jam.",
+        "image": "img/pexels-quang-nguyen-vinh-2144112.jpg"
+      }
+    ],
+    "desserts": [
+      {
+        "name": "Plain Scones",
+        "description": "Strawberry conserve and clotted cream.",
+        "image": "img/pexels-quang-nguyen-vinh-2144112.jpg"
+      },
+      {
+        "name": "Fruit Scones",
+        "description": "Strawberry conserve and clotted cream or organic butter.",
+        "image": "img/pexels-quang-nguyen-vinh-2144112.jpg"
+      },
+      {
+        "name": "Lemon Scones",
+        "description": "Lemon curd and clotted cream.",
+        "image": "img/pexels-quang-nguyen-vinh-2144112.jpg"
+      },
+      {
+        "name": "Coffee and Choc-Chip",
+        "description": "Served with nutella and clotted cream.",
+        "image": "img/pexels-quang-nguyen-vinh-2144112.jpg"
+      },
+      {
+        "name": "Cinnamon and Apple",
+        "description": "Honey and clotted cream.",
+        "image": "img/pexels-quang-nguyen-vinh-2144112.jpg"
+      },
+      {
+        "name": "Almond Scones",
+        "description": "Raspberry jam and clotted cream.",
+        "image": "img/pexels-quang-nguyen-vinh-2144112.jpg"
+      }
+    ],
+    "specials": [
+      {
+        "name": "Birthday cake letter box gift",
+        "description": "Contains a cake, a letter box and a gift of choice",
+        "image": "img/pexels-quang-nguyen-vinh-2144112.jpg"
+      },
+      {
+        "name": "Get well soon cake letter box gift",
+        "description": "A cake, a card, flowers and a gift of choice",
+        "image": "img/pexels-quang-nguyen-vinh-2144112.jpg"
+      },
+      {
+        "name": "Congratulations cake letter box gift",
+        "description": "A cake, a card, flowers and a gift of choice",
+        "image": "img/pexels-quang-nguyen-vinh-2144112.jpg"
+      },
+      {
+        "name": "Cake and Scone gift box",
+        "description": "A cake and a scone",
+        "image": "img/pexels-quang-nguyen-vinh-2144112.jpg"
+      },
+      {
+        "name": "Scones, cream and jam letter gift box",
+        "description": "A cake and a scone",
+        "image": "img/pexels-quang-nguyen-vinh-2144112.jpg"
+      }
+    ]
+  }
+  

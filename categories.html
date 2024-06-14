@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="global.css" />
+    <link rel="stylesheet" href="categories.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script
+      src="https://kit.fontawesome.com/6b219ab309.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@400;700&family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="img/daracakes-logo.png" type="image/png" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <title>Daracakes and Wellbeing</title>
+  </head>
+  <body>
+    <header id="header">
+      <div class="navbar">
+        <div class="logo">
+          <a href="index.html">
+            <img
+              src="img/daracakes-logo-removebg-preview.png"
+              alt="Company Logo"
+            />
+          </a>
+        </div>
+        <nav id="navlinks" class="nav-menu">
+          <i class="menu-icon fas fa-times d-md-none" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="categories.html">Menu</a></li>
+            <li><a href="#">Reviews</a></li>
+            <li><a href="#">Blog</a></li>
+          </ul>
+
+          <div class="download-button">
+            <a href="#" download>
+              <button class="download-cv">contact us</button>
+            </a>
+          </div>
+        </nav>
+        <i class="menu-icon fas fa-bars d-md-none" onclick="showMenu()"></i>
+      </div>
+    </header>
+
+    <section class="category-body">
+      <div class="wrapper">
+        <input class="radio" id="one" name="group" type="radio" checked />
+        <input class="radio" id="two" name="group" type="radio" />
+        <input class="radio" id="three" name="group" type="radio" />
+
+        <div class="tabs">
+          <label class="tab" id="one-tab" for="one">CAKES</label>
+          <label class="tab" id="two-tab" for="two">DESSERTS</label>
+          <label class="tab" id="three-tab" for="three">SPECIALS</label>
+        </div>
+
+        <div class="panels">
+          <div class="panel" id="one-panel">
+            <div class="inner-container">
+              <div class="left-container">
+                <h2>Our Cake<br> Collections</h2>
+                <h3 id="cake-name">Cake Name</h3>
+                <p id="cake-description">Cake description goes here.</p>
+                <a href="#" id="buy-button" class="btn btn-main btn-buy">Click to Buy</a>
+              </div>
+              <div class="right-container">
+                <div class="image-container">
+                    <img id="cake-image" src="" alt="Cake Image" />
+                </div>
+                <div class="slider-controls">
+                    <i class="fas fa-chevron-circle-left" id="prev-cake"></i>
+                    <i class="fas fa-chevron-circle-right" id="next-cake"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="panel" id="two-panel">
+            <div class="inner-container">
+              <div class="left-container">
+                <h2>Our Dessert<br> Collections</h2>
+                <h3 id="dessert-name">Dessert Name</h3>
+                <p id="dessert-description">Dessert description goes here.</p>
+                <a href="#" id="buy-button" class="btn btn-main btn-buy">Click to Buy</a>
+              </div>
+              <div class="right-container">
+                <div class="image-container">
+                    <img id="dessert-image" src="" alt="Cake Image" />
+                </div>
+                <div class="slider-controls">
+                    <i class="fas fa-chevron-circle-left" id="prev-dessert"></i>
+                    <i class="fas fa-chevron-circle-right" id="next-dessert"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="panel" id="three-panel">
+            <div class="inner-container">
+              <div class="left-container">
+                <h2>Special<br> Requests</h2>
+                <h3 id="special-name">Special Name</h3>
+                <p id="special-description">Special description goes here.</p>
+                <a href="#" id="buy-button" class="btn btn-main btn-buy">Click to Buy</a>
+              </div>
+              <div class="right-container">
+                <div class="image-container">
+                    <img id="special-image" src="" alt="Cake Image" />
+                </div>
+                <div class="slider-controls">
+                    <i class="fas fa-chevron-circle-left" id="prev-special"></i>
+                    <i class="fas fa-chevron-circle-right" id="next-special"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+    <script src="categories.js"></script>
+  </body>
+</html>
