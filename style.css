@@ -59,7 +59,6 @@ header {
   padding: 0 20px;
   justify-content: space-around;
   align-items: center;
-   /* outline: 1px solid red; */
 }
 nav {
   padding: 0;
@@ -85,9 +84,7 @@ nav {
 nav ul {
   list-style: none;
   display: flex;
-  align-items: top;
- 
-
+  align-items: center;
   justify-content: space-between;
   margin: 0;
   width: 60%;
